@@ -17,3 +17,6 @@ function useStickyState(defaultValue: any, key: string) {
     }
 
 export default useStickyState
+
+
+  //  const [theme,setTheme]= useStickyState('',"theme")
