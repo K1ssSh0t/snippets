@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-function useStickyState(defaultValue: any, key: string) {
+function useStickyState<Type>(defaultValue: Type, key: string) {
     const [value, setValue] = React.useState(() => {
       const stickyValue = window.localStorage.getItem(key);
       return stickyValue !== null
