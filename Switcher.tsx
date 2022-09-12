@@ -40,6 +40,16 @@ const Switcher = ()=>{
                 {/*theme === 'dark'? '🌕':'☀️'*/} 
                 <img src={theme === 'dark'? 'https://www.svgrepo.com/show/79251/crescent-moon.svg':'https://www.svgrepo.com/show/28382/sun.svg'} alt=""  className='h-5 w-5 fill-black'/>
             </button>
+            
+            {/*  checar esto 
+            
+                <label className='switch'>
+                 <input type="checkbox" onClick={handleThemeSwitch} />
+                 <span className='slider'></span>
+              </label>
+            
+            */}
+              
            
             </div>
     )
